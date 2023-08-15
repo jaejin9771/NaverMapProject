@@ -1,4 +1,4 @@
-package kr.inflearn;
+package navermapproject;
 
 public class AddressVO {
 	private String roadAddress;
