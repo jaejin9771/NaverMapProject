@@ -23,6 +23,8 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.28'
     implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.11'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
+    implementation 'org.yaml:snakeyaml:2.1'
+
     // Use JUnit Jupiter for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
 

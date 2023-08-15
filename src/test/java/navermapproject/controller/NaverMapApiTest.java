@@ -3,9 +3,16 @@ package navermapproject.controller;
 import navermapproject.model.geocoding.GeoCode;
 import org.junit.jupiter.api.Test;
 
+import java.io.FileNotFoundException;
+
 class NaverMapApiTest {
 
-    NaverMapApi naverMapApi = new NaverMapApi();
+    public NaverMapApiTest() throws FileNotFoundException {
+        this.naverMapApi = new NaverMapApi();
+    }
+
+    NaverMapApi naverMapApi;
+
 
     @Test
     void getGeoCode() throws Exception {

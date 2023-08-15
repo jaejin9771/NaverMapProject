@@ -10,6 +10,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class MainScreen implements ActionListener {
@@ -25,7 +26,7 @@ public class MainScreen implements ActionListener {
     int level = 16;
 
 
-    public MainScreen() {
+    public MainScreen() throws FileNotFoundException {
         JFrame frm = new JFrame("Map View");
         frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 

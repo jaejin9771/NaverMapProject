@@ -1,0 +1,5 @@
+naver:
+  map:
+    api:
+      id: clientId
+      key: clientKey
